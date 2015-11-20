@@ -8,5 +8,14 @@
 			<li>/doc/doc_id/username/key to GET a document from the DB (username and key are credentials)</li>
 			<li>/doc to POST a doc to enter it into the DB (doc_id, doc_text, username, key)</li>
 		</ul>
+
+		<pre>
+			POST should always be with json format:
+
+			doc POST example: '{"doc_id": "test_doc_2", "doc_text": "Continental does not have an office in Zurich.", "username" : "test", "key":"47CB9661-520D-4674-B79B-B0A1FD3805F1"}'
+
+			user POST example: '{"username" : "test2", "key":"47CB9661-520D-4674-B79B-B0A1FD3805F1"}'
+
+		</pre>
 	</body>
 </html>
